@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>media query</title>
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+	<style type="text/css">
+
+		@media (min-width:751px) {
+			body {background-color: red;
+			}			
+		}
+
+		@media (max-width:750px){
+			body {background-color: green;
+			}
+		}	
+
+		@media (max-width: 420px){
+			body {
+				background-color: yellow;
+			}
+		}
+
+	</style>
+</head>
+<body>
+<ul>
+<li>751~: red (min-width: 751)</li>
+<li>376~750: green (max-width: 750)</li>
+<li>0~375: yellow (max-width: 375)</li>
+</ul>
+
+</body>
+</html>
